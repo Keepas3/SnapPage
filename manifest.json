@@ -12,14 +12,14 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-      "16": "shutter.png",
-      "48": "shutter.png",
-      "128": "shutter.png"
+      "16": "/shutter.png",
+      "48": "/shutter.png",
+      "128": "/shutter.png"
     }
   },
   "icons": {
-    "16": "shutter.png",
-    "48": "shutter.png",
-    "128": "shutter.png"
+    "16": "/shutter.png",
+    "48": "/shutter.png",
+    "128": "/shutter.png"
   }
 }

@@ -1,6 +1,8 @@
+console.log("Content script is running!");
+
 document.getElementById("shotBtn").addEventListener("click", () => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-        console.log("here");
+        console.log("Active tab here!");
         
       if (tabs.length === 0) {
         console.error("No active tabs found.");
